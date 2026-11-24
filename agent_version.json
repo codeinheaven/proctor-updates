@@ -1,14 +1,15 @@
 {
   "version": "2.0.0",
   "releaseDate": "2026-11-24",
-  "releaseNotes": "Official release of Skillify Proctoring Agent with hardened security and automatic environment integrity monitoring.",
+  "releaseNotes": "Official cross-platform release of Skillify Proctoring Agent for Windows and macOS.",
   "platforms": {
+    "windows": {
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorSetup.exe",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-Windows.zip"
+    },
     "macos": {
       "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-macOS.pkg",
       "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorAgent-macOS.zip"
-    },
-    "windows": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorSetup.exe"
     }
   }
 }
