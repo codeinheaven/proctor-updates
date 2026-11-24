@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "minSupportedVersion": "2.0.0",
+  "mandatory": false,
+  "releaseDate": "2026-11-24",
+  "releaseNotes": "Dynamic auto-update config for Proctoring Agent.",
+  "platforms": {
+    "macos": {
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-macOS.pkg",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorAgent-macOS.zip"
+    },
+    "windows": {
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorSetup.exe"
+    }
+  },
+  "dynamicConfig": {
+    "bannerNotice": "Welcome to Skillify Examination. All systems verified.",
+    "customInstructions": "Ensure your camera remains active during the exam duration.",
+    "supportContact": "support@skillifyai.in",
+    "features": {
+      "enableNetworkLockdown": true,
+      "enforceSebLatestVersion": true,
+      "enforceSebOfficialSignature": true
+    }
+  }
+}
