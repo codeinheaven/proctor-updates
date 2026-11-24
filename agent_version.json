@@ -1,15 +1,15 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "releaseDate": "2026-11-24",
-  "releaseNotes": "Official cross-platform release of Skillify Proctoring Agent for Windows and macOS.",
+  "releaseNotes": "Security Hardening: Complete Screen Sharing, Screen Recording, Mirroring & Screenshot Lockdown for macOS and Windows",
   "platforms": {
     "windows": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorSetup.exe",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-Windows.zip"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctorSetup.exe",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctoringAgent-Windows.zip"
     },
     "macos": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-macOS.pkg",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorAgent-macOS.zip"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctoringAgent-macOS.pkg",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctorAgent-macOS.zip"
     }
   }
 }
