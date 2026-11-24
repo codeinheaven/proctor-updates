@@ -1,28 +1,31 @@
 # Skillify Proctoring Agent — Official Distribution
 
 [![Version](https://img.shields.io/badge/Release-v2.0.0-blue.svg)](https://github.com/codeinheaven/proctor-updates/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-10.15%2B-brightgreen.svg)](https://github.com/codeinheaven/proctor-updates/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6.svg?logo=windows)](https://github.com/codeinheaven/proctor-updates/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-10.15%2B-brightgreen.svg?logo=apple)](https://github.com/codeinheaven/proctor-updates/releases/latest)
 [![Security](https://img.shields.io/badge/Security-Enforced-success.svg)](https://github.com/codeinheaven/proctor-updates/releases/latest)
 
-Official repository for distribution and verified update packages of the **Skillify Proctoring Agent**.
+Official distribution and verified update repository for the **Skillify Proctoring Agent** across Windows and macOS platforms.
 
 ---
 
-## 📥 Official Downloads
+## 📥 Official Downloads (v2.0.0)
 
-Download the latest verified release from the [Releases Page](https://github.com/codeinheaven/proctor-updates/releases/latest):
-
-- **macOS Installer (.pkg):** [Download Latest PKG](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-macOS.pkg)
-- **macOS Standalone (.zip):** [Download Latest ZIP](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorAgent-macOS.zip)
+| OS | Package | Format | Direct Download |
+| :--- | :--- | :--- | :--- |
+| 🪟 **Windows** | Production Executable | `.exe` | [Download SkillifyProctorSetup.exe](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorSetup.exe) |
+| 🪟 **Windows** | Portable Zip Archive | `.zip` | [Download Windows Bundle](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-Windows.zip) |
+| 🍎 **macOS** | Native Installer | `.pkg` | [Download SkillifyProctoringAgent-macOS.pkg](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctoringAgent-macOS.pkg) |
+| 🍎 **macOS** | Portable Application | `.zip` | [Download SkillifyProctorAgent-macOS.zip](https://github.com/codeinheaven/proctor-updates/releases/download/v2.0.0/SkillifyProctorAgent-macOS.zip) |
 
 ---
 
-## 🛡️ Features & Security
+## 🛡️ Core Capabilities & Security Features
 
-- **Safe Exam Browser Integration:** Verifies cryptographic signatures and official ETH Zürich builds.
-- **Process Protection:** Real-time neutralization of unauthorized remote tools, screen capture software, and overlay applications.
-- **Zero Configuration:** Automated detection of candidate hardware environment and display parameters.
-- **High Performance:** Lightweight native binary engineered for minimal CPU and memory footprint during testing.
+- **Cross-Platform Protection:** Hardened against remote sharing tools, screen recording utilities, virtual environments, and overlays.
+- **Safe Exam Browser Integration:** Verifies official cryptographic signatures and integrity against tampering.
+- **Zero Configuration Setup:** Automatically adapts to candidate hardware, primary display, and network settings.
+- **High Performance Architecture:** Compact native C++ footprint with near-zero latency and minimal CPU overhead.
 
 ---
 
