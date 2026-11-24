@@ -1,15 +1,20 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "releaseDate": "2026-11-24",
-  "releaseNotes": "Security Hardening: Complete Screen Sharing, Screen Recording, Mirroring & Screenshot Lockdown for macOS and Windows",
+  "releaseNotes": "Mandatory Security Update: Anti-Bypass Cryptographic SHA-256 Verification & Complete Lockdown for Outdated Versions",
+  "mandatory": true,
   "platforms": {
     "windows": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctorSetup.exe",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctoringAgent-Windows.zip"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.1/SkillifyProctorSetup.exe",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.1/SkillifyProctoringAgent-Windows.zip",
+      "sha256": "7bfb34b1202ed64fc7781fa37dadbe5e73837a4c2e5ca159540bc06499b3ce0b",
+      "zipSha256": "e3dd9b2b9ddd422c53a02619b3c020a9968bd276315532aaaa3170b1dd3bf63c"
     },
     "macos": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctoringAgent-macOS.pkg",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.0/SkillifyProctorAgent-macOS.zip"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.1/SkillifyProctoringAgent-macOS.pkg",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.1/SkillifyProctorAgent-macOS.zip",
+      "sha256": "427fe1a93656eec82bbc0e6c4d80ae496486dc307d14529580bbf4c82e763e8f",
+      "zipSha256": "620ba0be752a586a7fa7b9388591b8239b2efc144a04e9b8d45855912469e0db"
     }
   }
 }
