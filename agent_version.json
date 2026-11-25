@@ -1,20 +1,20 @@
 {
-  "version": "2.1.5",
+  "version": "2.1.6",
   "releaseDate": "2026-11-25",
-  "releaseNotes": "Production Security & macOS Lockout Fix v2.1.5 (Windows & macOS Universal): Cryptographic Apple Platform Code-Signature Verification (anchor apple), Zombie/Empty-PID Filtering, ContextStoreAgent/fairplayd/AirPlay Idle Daemon Support, Green Quit Agent UI & Full GAP-01..21 Parity.",
+  "releaseNotes": "Production Security & macOS ReplayKit/Daemon Fix v2.1.6 (Windows & macOS Universal): Canonical /usr/libexec/replayd & Apple Overlay Filtering, anchor apple Cryptographic Verification, ContextStoreAgent/fairplayd/AirPlay Idle Support, Green Quit Agent UI & Full GAP-01..21 Parity.",
   "mandatory": true,
   "platforms": {
     "windows": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.5/SkillifyProctorSetup.exe",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.5/SkillifyProctoringAgent-Windows.zip",
-      "sha256": "6d172df92a1875302cf85a7c9e64051ef247b691b343a32a1391aea296653c52",
-      "zipSha256": "0c7cd2ef52b7339e7b29eba8f2e473c5eec18d9fa5f6c44a863bf61e8e639e92"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.6/SkillifyProctorSetup.exe",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.6/SkillifyProctoringAgent-Windows.zip",
+      "sha256": "330b412db5a76de80defd76cb54cbb277463e10985d229eeca325370d30572af",
+      "zipSha256": "ad9b3651713538f564f2cfad0a646e1158772abbdee06dccedec15ab3f82f6b6"
     },
     "macos": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.5/SkillifyProctoringAgent-macOS.pkg",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.5/SkillifyProctorAgent-macOS.zip",
-      "sha256": "d9e8aedf00f255cdd0b7e60fda3d2efe9e37d48aa067fa16e50e362341e6ab79",
-      "zipSha256": "5e1bbab0060e472d3cae161b62e38c0bbedbaad03d60cf6ce84c068df0a4e8cb"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.6/SkillifyProctoringAgent-macOS.pkg",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.6/SkillifyProctorAgent-macOS.zip",
+      "sha256": "1d0148df1d065ef793d610ebf6ea479d438a75fe1f6c7938c831d17e033d33c7",
+      "zipSha256": "3bbe0a996a6c2dac50b14c980fe1a32c10357829002fc0cf17350bb2f79f2a30"
     }
   }
 }
