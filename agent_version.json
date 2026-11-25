@@ -1,20 +1,20 @@
 {
-  "version": "2.1.7",
-  "releaseDate": "2026-11-25",
-  "releaseNotes": "Windows SEB RuntimeWindow Fix & Mandatory Release v2.1.7 (Windows & macOS Universal): Dismisses lingering SEB 'SEB is running.' RuntimeWindow over loaded exam pages once SafeExamBrowser.Client.exe opens, fixes sebHwnd foreground targeting, fast 250ms startup sweep, plus full v2.1.6 macOS replayd/Daemon fixes and GAP-01..21 Parity.",
+  "version": "2.1.8",
+  "releaseDate": "2026-11-26",
+  "releaseNotes": "Black Quit Agent UI & Mandatory Release v2.1.8 (Windows & macOS Universal): Updates Quit Agent buttons across Windows Status/Login dialogs and macOS Status HUD/Login modals to matte black with white text, plus full v2.1.7 SEB RuntimeWindow fix, macOS replayd/Daemon anchor apple checks, and GAP-01..21 Parity.",
   "mandatory": true,
   "platforms": {
     "windows": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.7/SkillifyProctorSetup.exe",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.7/SkillifyProctoringAgent-Windows.zip",
-      "sha256": "f67271d05cc300c0e80bd4a143d5d8d211fa45d4f02834633e23ac69614132d5",
-      "zipSha256": "b0826b5ed85a31ec5028ade93ac7d0126c7657c787ef2f93bb239f599af299bd"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.8/SkillifyProctorSetup.exe",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.8/SkillifyProctoringAgent-Windows.zip",
+      "sha256": "6fde78b56e14c14bf6879d91fb10cf1abd8492e5acd699238d8478b9fd4a6362",
+      "zipSha256": "247e98699b6fb674a091f27ff926ed5860dec209fcf8c517b9209db30800821c"
     },
     "macos": {
-      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.7/SkillifyProctoringAgent-macOS.pkg",
-      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.7/SkillifyProctorAgent-macOS.zip",
-      "sha256": "2136dfa86e7b6cbc4df211fe98af2b8d554155fabe29aaf8c321827ec92aadc7",
-      "zipSha256": "651c7d66a71b6937dc871462be9dc262aab42b90deed4cebf0ed57a1af713409"
+      "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.8/SkillifyProctoringAgent-macOS.pkg",
+      "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.8/SkillifyProctorAgent-macOS.zip",
+      "sha256": "14728e7b3d13f17234c933b6de3f5ec9e5476fac1f7d6f1f4e863c036be6e09d",
+      "zipSha256": "df01caeb458f9e2def781a5a6399cb52be7e86442d4b6898955e7f33cb662c15"
     }
   }
 }
