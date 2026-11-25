@@ -1,20 +1,20 @@
 {
   "version": "2.1.2",
   "releaseDate": "2026-11-25",
-  "releaseNotes": "Production Security Hardening v2.1.2 (Windows & macOS Universal): Passes 1-9 Complete \u2014 SplitMix64 Binary & String Armor, Direct x64 Syscalls + Halo's Gate, WFP/PF Kernel Lockdown, AES-256-GCM Sealed Audit Chain, Mandatory Version Enforcement & Zero-TOCTOU Self-Updater.",
+  "releaseNotes": "Production Security Hardening v2.1.2 (Windows & macOS Universal): Passes 1-9 Complete — SplitMix64 Binary & String Armor, Direct x64 Syscalls + Halo's Gate, WFP/PF Kernel Lockdown, AES-256-GCM Sealed Audit Chain, Mandatory Version Enforcement, Zero-TOCTOU Self-Updater & Hardened SEB Latest-Installer Verification/Download.",
   "mandatory": true,
   "platforms": {
     "windows": {
       "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.2/SkillifyProctorSetup.exe",
       "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.2/SkillifyProctoringAgent-Windows.zip",
-      "sha256": "ef5b6159908ac0788efb87bf8441869924483261b49b55f1ea17357361a9c6a2",
-      "zipSha256": "24c6fa75d8c3a33e5d695c8ff362235e42a5c932f3efc24ca494dff75fe96594"
+      "sha256": "0a4f78f8d52f05d1f435cd568f90ef6c3f5585f9b3ca4ed69a9de23feae2ec7e",
+      "zipSha256": "1a699530cd774baf0a917d14f768ab6be3a89b0fce8e8756b8af05fada9337d6"
     },
     "macos": {
       "installerUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.2/SkillifyProctoringAgent-macOS.pkg",
       "zipUrl": "https://github.com/codeinheaven/proctor-updates/releases/download/v2.1.2/SkillifyProctorAgent-macOS.zip",
-      "sha256": "3c75082543b7aa0c9db221aa1487657e1dcff39f62e7a66118c0d425053376e0",
-      "zipSha256": "8e84bab5349c90269f90186e93ed529e14058503e40107e4af1d887422e9f866"
+      "sha256": "55045d830ba3b939c10af88897a12a9ce7bf0c7b8fcf5088a5eac01472d58583",
+      "zipSha256": "a86cadf7749fc2fc64474df96a36471e3e6749c636050bb2ca9eb0b1144c72a5"
     }
   }
 }
